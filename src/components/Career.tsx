@@ -15,43 +15,25 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
-              </div>
-              <h3>20XX</h3>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
-              </div>
-              <h3>20XX</h3>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Full-Stack & AI Development</h4>
+                <h5>Projects & Enterprise Simulations</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Hands-on experience developing full-stack applications and AI-driven workflow tools, complemented by virtual simulations in enterprise cybersecurity and operations. Eager to leverage skills in Python, MERN stack, and workflow automation for software engineering and ML roles.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Aspiring Software Engineer</h4>
+                <h5>SRM Institute of Science and Technology</h5>
+              </div>
+              <h3>2029</h3>
+            </div>
+            <p>
+              I am an aspiring Software Engineer and AI/ML enthusiast pursuing my B.Tech at SRM Institute of Science and Technology. My focus spans building practical software and automated systems that solve real-world bottlenecks.
             </p>
           </div>
         </div>

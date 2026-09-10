@@ -191,6 +191,23 @@
   top: inherit;
   z-index: 9;
 }
+.landing-profile-badge {
+  margin-bottom: 12px;
+  display: inline-block;
+}
+.landing-profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2.5px solid var(--accentColor);
+  box-shadow: 0 0 20px rgba(194, 164, 255, 0.4), 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.landing-profile-img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 25px rgba(194, 164, 255, 0.7), 0 6px 16px rgba(0, 0, 0, 0.5);
+}
 .landing-info h3 {
   font-size: 22px;
   letter-spacing: 2px;

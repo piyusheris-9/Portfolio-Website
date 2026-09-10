@@ -4,11 +4,12 @@ const About = () => {
   return (
     <div className="about-section" id="about">
       <div className="about-me">
+        <div className="about-avatar-container">
+          <img src="/images/profile.jpg" alt="Piyush Tripathi" className="about-avatar-img" />
+        </div>
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          My name is Piyush Tripathi and I am 18 years old, centered on AI/ML and computer science fundamentals. Thank you for visiting my website.
         </p>
       </div>
     </div>

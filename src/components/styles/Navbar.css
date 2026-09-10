@@ -45,6 +45,30 @@
   font-size: 14px;
   letter-spacing: 0.2px;
 }
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accentColor);
+  box-shadow: 0 0 10px rgba(194, 164, 255, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.navbar-logo:hover .navbar-avatar {
+  transform: scale(1.08);
+  box-shadow: 0 0 16px rgba(194, 164, 255, 0.7);
+}
+.navbar-title span, .loader-title span {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  white-space: nowrap;
+}
 @media only screen and (min-width: 500px) {
   .header {
     padding: 20px 0px;
