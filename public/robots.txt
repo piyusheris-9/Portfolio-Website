@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://piyusheris-9.github.io/Portfolio-Website/sitemap.xml
