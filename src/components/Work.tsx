@@ -6,6 +6,7 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
 
+const baseUrl = import.meta.env.BASE_URL;
 const projects = [
   {
     title: "Personal Portfolio",
@@ -13,7 +14,7 @@ const projects = [
     tools: "React, TypeScript, GSAP, Three.js, WebGL",
     description:
       "Designed and built this interactive 3D portfolio website featuring custom GSAP animations, 3D character model, dynamic smooth scrolling, and responsive layouts.",
-    image: "/images/portfolio-preview.png",
+    image: `${baseUrl}images/portfolio-preview.png`,
   },
   {
     title: "Snap-Link",
@@ -21,7 +22,7 @@ const projects = [
     tools: "MongoDB, Express.js, React, Node.js (MERN)",
     description:
       "Developed a responsive web platform enabling users to upload, manage, and share multimedia content. Implemented secure RESTful APIs, user authentication, and persistent cloud storage.",
-    image: "/images/placeholder.webp",
+    image: `${baseUrl}images/placeholder.webp`,
   },
 ];
 

@@ -73,6 +73,10 @@ const Scene = () => {
             handleResize(renderer, camera, canvasDiv, character)
           );
         }
+      }).catch((err) => {
+        console.error("Character loading fallback:", err);
+        progress.clear();
+        light.turnOnLights();
       });
 
       let mouse = { x: 0, y: 0 },

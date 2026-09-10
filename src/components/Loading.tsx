@@ -47,7 +47,7 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-header">
         <a href="/#" className="loader-title" data-cursor="disable">
           <div className="navbar-logo">
-            <img src="/images/profile.jpg" alt="Piyush Tripathi" className="navbar-avatar" />
+            <img src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Piyush Tripathi" className="navbar-avatar" />
             <span>Piyush Tripathi</span>
           </div>
         </a>

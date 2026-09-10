@@ -5,7 +5,7 @@ const About = () => {
     <div className="about-section" id="about">
       <div className="about-me">
         <div className="about-avatar-container">
-          <img src="/images/profile.jpg" alt="Piyush Tripathi" className="about-avatar-img" />
+          <img src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Piyush Tripathi" className="about-avatar-img" />
         </div>
         <h3 className="title">About Me</h3>
         <p className="para">

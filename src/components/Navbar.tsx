@@ -45,7 +45,7 @@ const Navbar = () => {
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
           <div className="navbar-logo">
-            <img src="/images/profile.jpg" alt="Piyush Tripathi" className="navbar-avatar" />
+            <img src={`${import.meta.env.BASE_URL}images/profile.jpg`} alt="Piyush Tripathi" className="navbar-avatar" />
             <span>Piyush Tripathi</span>
           </div>
         </a>
